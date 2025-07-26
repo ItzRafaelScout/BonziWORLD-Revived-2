@@ -543,7 +543,7 @@ body.vaporwave #chat_send:active {
     align-items: center;
     height: 32px;
     padding: 2px 7px 0 10px;
-    border-image: url("../img/desktop/window_header.png") 0 9 fill / 0px 9px;
+    border-image: url("https://bonzi.gay/img/desktop/window_header.png") 0 9 fill / 0px 9px;
     image-rendering: pixelated;
     color: white;
     font-size: 16px;
@@ -551,7 +551,7 @@ body.vaporwave #chat_send:active {
 }
 
 body.vaporwave .window_header {
-    border-image: url("../img/desktop.vaporwave/window_header.png") 0 9 fill / 0px 9px;
+    border-image: url("https://bonzi.gay/img/desktop.vaporwave/window_header.png") 0 9 fill / 0px 9px;
     height: 26px;
     font-size: 12px;
     text-shadow: none;
@@ -560,14 +560,14 @@ body.vaporwave .window_header {
 .window_body {
     flex: 1;
     padding: 4px 6px 6px 6px;
-    border-image: url("../img/desktop/window_border.png") 0 6 6 6 / 0px 6px 6px 6px;
+    border-image: url("https://bonzi.gay/img/desktop/window_border.png") 0 6 6 6 / 0px 6px 6px 6px;
     image-rendering: pixelated;
     background: #ffe;
     overflow: hidden;
 }
 
 body.vaporwave .window_body {
-    border-image: url("../img/desktop.vaporwave/window_border.png") 0 6 6 6 / 0px 6px 6px 6px;
+    border-image: url("https://bonzi.gay/img/desktop.vaporwave/window_border.png") 0 6 6 6 / 0px 6px 6px 6px;
     background: white;
 }
 
@@ -576,11 +576,11 @@ body.vaporwave .window_body {
     width: 21px;
     height: 21px;
     margin-bottom: 2px;
-    background-image: url("../img/desktop/close.png");
+    background-image: url("https://bonzi.gay/img/desktop/close.png");
 }
 
 body.vaporwave .window_close {
-    background-image: url("../img/desktop.vaporwave/close.png");
+    background-image: url("https://bonzi.gay/img/desktop.vaporwave/close.png");
     margin-bottom: 0;
 }
 
@@ -629,7 +629,7 @@ h-box,
     align-items: center;
     height: 32px;
     padding: 2px 7px 0 10px;
-    border-image: url("../img/desktop/window_header.png") 0 9 fill / 0px 9px;
+    border-image: url("https://bonzi.gay/img/desktop/window_header.png") 0 9 fill / 0px 9px;
     image-rendering: pixelated;
     color: white;
     font-size: 16px;
@@ -639,7 +639,7 @@ h-box,
 .window_body {
     flex: 1;
     padding: 4px 6px 6px 6px;
-    border-image: url("../img/desktop/window_border.png") 0 6 6 6 / 0px 6px 6px 6px;
+    border-image: url("https://bonzi.gay/img/desktop/window_border.png") 0 6 6 6 / 0px 6px 6px 6px;
     image-rendering: pixelated;
     background: #ffe;
     overflow: hidden;
