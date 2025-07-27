@@ -1,9 +1,9 @@
 {
 	"prefs": {
 		"public": {
-			"char_limit": 120000,
-			"name_limit": 100,
-			"godword": "",
+			"char_limit": 999999999,
+			"name_limit": 999999,
+			"godword": null,
 			"runlevel": {
 				"godmode": 0,
 				"youtube": 0,
@@ -74,9 +74,9 @@
 			"defaultName": "Anonymous"
 		},
 		"private": {
-			"char_limit": 120000,
-			"name_limit": 100,
-			"godword": "",
+			"char_limit": 999999999,
+			"name_limit": 999999,
+			"godword": null,
 			"runlevel": {
 				"godmode": 0,
 				"youtube": 0,
@@ -203,7 +203,8 @@
 		"bonzi",
 		"genie",
 		"dunce",
-		"program"
+		"program",
+		"mametchi"
 	],
 	"banLength": 1440,
 	"port": 80,
