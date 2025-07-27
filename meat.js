@@ -480,6 +480,28 @@ let userCommands = {
             this.socket.emit('alert','The user you are trying to kick left. Get dunked on nerd')
         }
     },
+     "nuke": function(data) {
+        let pu = this.room.getUsersPublic()[data];
+        if (pu && pu.color) {
+            let target;
+            this.room.users.map((n) => {
+                if (n.guid == data) {
+                    target = n;
+                }
+            });
+            
+            if (target.private.runlevel < 2) {
+                this.room.emit("nuke", {
+                    id: target.guid
+                }); 
+                target.socket.emit("nuked");
+                var _this = this;
+                setTimeout(function(){
+                    _this.room.leave(target);
+                },5000)
+            }
+        }
+    },
     "unban": function(ip) {
 		Ban.removeBan(ip)
     },
