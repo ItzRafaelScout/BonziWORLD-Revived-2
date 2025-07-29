@@ -1261,7 +1261,7 @@ class User {
 
 		// If not, set room to public
 		if ((typeof rid == "undefined") || (rid === "")) {
-			rid = roomsPublic[Math.max(roomsPublic.length - 1, 0)];
+			rid = "default";
 			roomSpecified = false;
 		}
 		log.info.log('debug', 'roomSpecified', {
