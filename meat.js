@@ -741,11 +741,6 @@ let userCommands = {
     "linux": "passthrough",
     "pawn": "passthrough", 
     "color": function(color) {
-	if (color.startsWith("http")) {
-            this.public.color = color; 
-            this.room.updateUser(this);
-            return;
-        }
         if (typeof color != "undefined") {
             if (settings.bonziColors.indexOf(color) == -1)
                 return;
